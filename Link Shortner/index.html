@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Link Shortener</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Link Shortener</h1>
+        <div class="input-container">
+            <input type="url" id="longUrl" placeholder="Enter a long URL" required>
+            <button id="shortenButton">Shorten</button>
+        </div>
+        <div id="shortenedUrlContainer" style="display: none;">
+            <p>Shortened URL:</p>
+            <a id="shortenedUrl" target="_blank"></a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
